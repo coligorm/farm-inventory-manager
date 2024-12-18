@@ -164,3 +164,10 @@ Produce, raw materials, customer data.
 
 # Sample Product Context Diagram
 ![Context Diagram of High-Level view of Farm Inventory Manager System.](/diagrams/FIM_Context_Diagram.png)
+
+---
+---
+<br />
+
+# Use Case Diagram
+![High-Level Use Case Diagram of Farm Inventory Manager System.](/diagrams/FIM_Use_case_diagram.png)
