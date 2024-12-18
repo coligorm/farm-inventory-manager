@@ -84,7 +84,7 @@ Produce, raw materials, customer data.
 - The total harvested should be accounted for during allocation.
 - The produce allocation should equal produce sent to market, plus delivery orders, plus produce stored.
 - The total harvested should equal the total sales, plus produce stored plus total waste combined.
-- Each crop will be self-contained with its own data to track its lifecycle
+- Each crop will be self-contained with its data to track its lifecycle
 
 ---
 ---
@@ -99,7 +99,7 @@ Produce, raw materials, customer data.
 | **A**ssumption | Remote device to update allocation of produce as allocations are taking place | Accuracy of produce sent to market and sales | | Medium
 | **I**ssues | Newly implemented system will not be as reliable in initial stages but will improve as time continues due to more data from sales | Initial system's reliability | | Medium
 | **I**ssues | Unsold produce consolidated prior to updating system | Accuracy of produce sold and estimations for future markets | | Medium
-| **D**ependency | Each stage of the crop cycle is dependent on the previous, from purchasing seedlings, to planting, to managing growth, to harvesting, to storing, to allocating, to sales, to excess waste | Entire system's reliability | | High
+| **D**ependency | Each stage of the crop cycle is dependent on the previous, from purchasing seedlings to planting to managing growth, to harvesting, to storing, to allocating, to sales, to excess waste | Entire system's reliability | | High
 
 ---
 ---
@@ -109,7 +109,7 @@ Produce, raw materials, customer data.
 ## Name and Descriptor: *Farmer Frank, the small farm owner*
 | *WHO* | *HOW* | *WHAT* | *WHY* |
 | ----- | ----- | ------ | ----- |
-| Farmer Frank grew up in the city. His father was a businessman and encouraged Frank to follow in his corporate ways. After growing tired of the corporate world, Frank turned to starting his own business. He found an escape from office life by starting a small vegetable garden in his backyard. Soon this turned into his true passion and abandoned his small business to start a new one: an organic vegetable farm. Operating solely from his backyard, he fed his family, friends and neighbours until he had enough courage to buy a plot of land and start making a name for himself. | The life of a farmer is a busy one. Frank is always working on the next project to grow his farm. His skills like his hard work ethic and, knowledge of cultivation and agriculture. However, worrying about the crops and staying on top of orders does not give Frank the time to keep a record of how many seeds need to be sown, how many crops need to be harvested and what markets would be best suited for his produce. Being able to systemically track which crops he needs more of and which he needs less of would greatly streamline his farming venture. | Franks needs somewhere to track what he is planting, what needs to be planted, when it needs to be planted, how much needs harvesting, how much produce he yields, what is being sold and what is getting wasted. | Frank is very much about efficiency. As he is always busy maintaining the farm and running a business, he wants a system to track his input/output so that he can optimise his time spent farming, rather than sitting at a desk searching for past orders and sales receipts. He is also mindful of his sustainability keen on waste prevention, so knowing how much is needed will reduce waste and costs.
+| Farmer Frank grew up in the city. His father was a businessman and encouraged Frank to follow in his corporate ways. After growing tired of the corporate world, Frank started his own business. He found an escape from office life by starting a small vegetable garden in his backyard. Soon this turned into his true passion and abandoned his small business to start a new one: an organic vegetable farm. Operating solely from his backyard, he fed his family, friends and neighbours until he had enough courage to buy a plot of land and start making a name for himself. | The life of a farmer is a busy one. Frank is always working on the next project to grow his farm. His skills like his hard work ethic and, knowledge of cultivation and agriculture. However, worrying about the crops and staying on top of orders does not give Frank the time to keep a record of how many seeds need to be sown, how many crops need to be harvested and what markets would be best suited for his produce. Being able to systemically track which crops he needs more of and which he needs less of would greatly streamline his farming venture. | Franks needs somewhere to track what he is planting, what needs to be planted, when it needs to be planted, how much needs harvesting, how much produce he yields, what is being sold and what is getting wasted. | Frank is very much about efficiency. As he is always busy maintaining the farm and running a business, he wants a system to track his input/output so that he can optimise his time spent farming, rather than sitting at a desk searching for past orders and sales receipts. He is also mindful of his sustainability keen on waste prevention, so knowing how much is needed will reduce waste and costs.
 
 ## Name and Descriptor: *Healthy Helen, the eco-friendly mother*
 | *WHO* | *HOW* | *WHAT* | *WHY* |
@@ -124,21 +124,21 @@ Produce, raw materials, customer data.
 ## Business Requirements
 - BR001 : Reduce overstock by 10%.
 - BR002 : Sales increase by 10%.
-- BR003 : Inventory Manager upkeep cost no more than 5 % of total revenue.
+- BR003 : Inventory Manager upkeep costs no more than 5 % of total revenue.
 
 ## Functional Requirements (Management)
 - FR001 : Management are able to update ordered and sold produce.
-- FR002 : Management are able to add amount and date for crop planted.
+- FR002 : Management are able to add the amount and date for the crop planted.
 - FR003 : Management are required to update each crop individually.
 - FR004 : Management are able to track the statistics of each crop based on previous data.
-- FR005 : Management are required to update allocation of produce post harvest.
-- FR006 : System should provide accurate and real-time tracking across the supply chain.
-- FR007 : Management should be able to know location of produce after allocation and easily move
+- FR005 : Management are required to update the allocation of produce post-harvest.
+- FR006 : The system should provide accurate and real-time tracking across the supply chain.
+- FR007 : Management should be able to know the location of produce after allocation and easily move
 
 ## Non-Functional Requirements
-- NFR001 : System should be easy to use and update
+- NFR001 : The system should be easy to use and update
 - NFR002 : System should be scalable
-- NFR003 : System should be fast to respond to requests and updates
+- NFR003 : The system should be fast to respond to requests and updates
 
 ---
 ---
