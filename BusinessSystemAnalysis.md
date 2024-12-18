@@ -148,7 +148,7 @@ Produce, raw materials, customer data.
 | As  | I need | So that |
 | --- | ------ | ------- |
 | Farm Manager | to be able to track previous orders | I know whether or not to update current order |
-| Farm Manager | to be able to see how produce is in-demand | I can plan future orders appropriately |
+| Farm Manager | to be able to see what produce is in-demand | I can plan future orders appropriately |
 | Farm Manager | to be able to track what is harvested vs sold | I can reduce waste |
 | Harvest Manager | to know how many of each crop should be harvested | I can accurately prepare and plan the harvest |
 | Stock Manager | to know how much space is available in storage | I can inform Harvest Manager how many of each crop should be harvested |
@@ -162,7 +162,7 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# Sample Product Context Diagram
+# Product Context Diagram
 ![Context Diagram of High-Level view of Farm Inventory Manager System.](/diagrams/FIM_Context_Diagram.png)
 
 ---
