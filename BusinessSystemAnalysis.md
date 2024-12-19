@@ -1,4 +1,29 @@
-# Problem Statement
+# Business System Analysis For Farm Inventory Manager
+---
+---
+<br />
+
+## Table of Contents
+1. [Problem Statement](#Problem-Statement)
+2. [Food Farm as a System](#Farm-System)
+3. [Vision/Elevator Pitch](#Elevator-Pitch)
+4. [Scope](#Scope)
+5. [Business Rules](#Business-Rules)
+6. [RAIDS](#RAIDS)
+7. [Personas](#Personas)
+8. [Requirements](#Requirements)
+9. [Sample User Stories](#Sample-User-Stories)
+10. [Product Context Diagram](#Product-Context-Diagram)
+11. [Use Case Diagram](#Use-Case-Diagram)
+12. [Sequence Diagram](#Sequence-Diagram)
+
+---
+---
+<br />
+
+<a name="Problem-Statement"></a>
+
+## Problem Statement
 **The Problem** is a lack of inventory management from field, to crate, to storage, to market thus increasing waste of produce and lack of produce being sent to market.
 
 **It affects** the company itself due to mismanagement of inventory, the managers, as it is more difficult to keep track of what is and is not needed, the employees, who may feel their work is inadequate due to waste, and the customers, who are not receiving the appropriate produce at markets.
@@ -11,7 +36,9 @@
 ---
 <br />
 
-# Thriving Food Farm as a System
+<a name="Farm-System"></a>
+
+## Thriving Food Farm as a System
 **What is its purpose: i.e. what is it trying to achieve?**  <br />
 Providing good-quality, organic produce to the homes of local families while maintaining the health of the soil in a sustainable and regenerative way.
 
@@ -38,14 +65,16 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# Vision/Elevator Pitch
-## For Produce and Inventory (Phase 1)
+<a name="Elevator-Pitch"></a>
+
+## Vision/Elevator Pitch
+### For Produce and Inventory (Phase 1)
 **For** Thriving Food Farm executive management <br />
 **Who** would like to keep records of produce planted, harvested, sold and discarded <br />
 **The Farm Inventory Management** system will keep a record of produce from field to market to waste  <br />
 **Unlike** our current manual records and estimations  <br />
-**It will be different** by having a digital database to reduce estimations of what produce is available or required`
-## For Customer Sales (Phase 2)
+**It will be different** by having a digital database to reduce estimations of what produce is available or required
+### For Customer Sales (Phase 2)
 **For** Thriving Food customers <br />
 **Who** would like to have a greater likelihood of receiving seasonal produce <br />
 **The Farm Inventory Management** system will better estimate what produce is available or required<br />
@@ -56,7 +85,9 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# Scope - In/Out List
+<a name="Scope"></a>
+
+## Scope - In/Out List
 | Topic | In  | Out |
 | ----- | --- | --- |
 | Purchase history | :heavy_check_mark: |
@@ -78,7 +109,9 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# Business Rules
+<a name="Business-Rules"></a>
+
+## Business Rules
 - The total purchase of all seedlings must not exceed the total planting space available.
 - The total harvest should not exceed the available storage.
 - The total harvested should be accounted for during allocation.
@@ -90,7 +123,9 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# RAIDS - Risk, Assumptions, Issues, Dependencies, System Constraints
+<a name="RAIDS"></a>
+
+## RAIDS - Risk, Assumptions, Issues, Dependencies, System Constraints
 | Category | Description | Impacts | Owner | Priority |
 | -------- | ----------- | ------- | ----- | -------- |
 | **R**isk | Produce is mismanaged and not accounted for | Entire system's reliability | |High | | 
@@ -105,13 +140,15 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# Personas
-## Name and Descriptor: *Farmer Frank, the small farm owner*
+<a name="Personas"></a>
+
+## Personas
+### Name and Descriptor: *Farmer Frank, the small farm owner*
 | *WHO* | *HOW* | *WHAT* | *WHY* |
 | ----- | ----- | ------ | ----- |
 | Farmer Frank grew up in the city. His father was a businessman and encouraged Frank to follow in his corporate ways. After growing tired of the corporate world, Frank started his own business. He found an escape from office life by starting a small vegetable garden in his backyard. Soon this turned into his true passion and abandoned his small business to start a new one: an organic vegetable farm. Operating solely from his backyard, he fed his family, friends and neighbours until he had enough courage to buy a plot of land and start making a name for himself. | The life of a farmer is a busy one. Frank is always working on the next project to grow his farm. His skills like his hard work ethic and, knowledge of cultivation and agriculture. However, worrying about the crops and staying on top of orders does not give Frank the time to keep a record of how many seeds need to be sown, how many crops need to be harvested and what markets would be best suited for his produce. Being able to systemically track which crops he needs more of and which he needs less of would greatly streamline his farming venture. | Franks needs somewhere to track what he is planting, what needs to be planted, when it needs to be planted, how much needs harvesting, how much produce he yields, what is being sold and what is getting wasted. | Frank is very much about efficiency. As he is always busy maintaining the farm and running a business, he wants a system to track his input/output so that he can optimise his time spent farming, rather than sitting at a desk searching for past orders and sales receipts. He is also mindful of his sustainability keen on waste prevention, so knowing how much is needed will reduce waste and costs.
 
-## Name and Descriptor: *Healthy Helen, the eco-friendly mother*
+### Name and Descriptor: *Healthy Helen, the eco-friendly mother*
 | *WHO* | *HOW* | *WHAT* | *WHY* |
 | ----- | ----- | ------ | ----- |
 | Helen grew up in the countryside surrounded by nature. She studied environmental law at university and after her studies travelled across the world meeting many different people, from many different backgrounds. She saw the damage that exporting non-native food crops to other parts of the world was doing to the ecosystem and the livelihoods of the local farmers. She vowed to shop locally and support locally grown produce. She has since settled in a beautiful suburb where she raises her four wonderful children. She is very conscious of the chemicals that go into the mass growing of produce and does her weekly food shop at farmers' markets. These foods also help her children maintain a busy active lifestyle between school and after-school sports. | Helen likes to meal plan as her busy lifestyle with work, her children and her hobbies, means she does not have the time to walk around a grocery store wondering what to eat that evening. She found a local farmer who consistently sells his produce at the farmers' market she attends. The farmer always has plenty of fresh produce that she likes to enjoy and also some seasonal produce that she tries to change up her meal plans. | Helen keeps track of the upcoming specials through the farmer's newsletters, where she finds out what will be in stock for the upcoming markets. This allows her to plan her meals and avoids her having to stop at the grocery store for the items that she missed at the market. | Helen likes to ensure she knows what food she is feeding her children. The farmer's market is certified and trustworthy. She knows that her family are eating fresh, locally grown produce. Her children also love coming to the market with her to help pick out the vegetables and meet the farmer who is behind it all face-to-face.
@@ -120,13 +157,15 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# Requirements
-## Business Requirements
+#<a name="Requirements"></a>
+
+## Requirements
+### Business Requirements
 - BR001 : Reduce overstock by 10%.
 - BR002 : Sales increase by 10%.
 - BR003 : Inventory Manager upkeep costs no more than 5 % of total revenue.
 
-## Functional Requirements (Management)
+### Functional Requirements (Management)
 - FR001 : Management are able to update ordered and sold produce.
 - FR002 : Management are able to add the amount and date for the crop planted.
 - FR003 : Management are required to update each crop individually.
@@ -135,7 +174,7 @@ Produce, raw materials, customer data.
 - FR006 : The system should provide accurate and real-time tracking across the supply chain.
 - FR007 : Management should be able to know the location of produce after allocation and easily move
 
-## Non-Functional Requirements
+### Non-Functional Requirements
 - NFR001 : The system should be easy to use and update
 - NFR002 : System should be scalable
 - NFR003 : The system should be fast to respond to requests and updates
@@ -144,7 +183,9 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# Sample User Stories
+<a name="Sample-User-Stories"></a>
+
+## Sample User Stories
 | As  | I need | So that |
 | --- | ------ | ------- |
 | Farm Manager | to be able to track previous orders | I know whether or not to update current order |
@@ -162,19 +203,25 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-# Product Context Diagram
+<a name="Product-Context-Diagram"></a>
+
+## Product Context Diagram
 ![Context Diagram of High-Level view of Farm Inventory Manager System.](/diagrams/FIM_Context_Diagram.png)
 
 ---
 ---
 <br />
 
-# Use Case Diagram
+<a name="Use-Case-Diagram"></a>
+
+## Use Case Diagram
 ![High-Level Use Case Diagram of Farm Inventory Manager System.](/diagrams/FIM_Use_case_diagram.png)
 
 ---
 ---
 <br />
 
-# Sequence Diagram
+<a name="Sequence-Diagram"></a>
+
+## Sequence Diagram
 ![High-Level Sequence Diagram of Farm Inventory Manager System.](/diagrams/FIM_Sequence_Diagram.png)
