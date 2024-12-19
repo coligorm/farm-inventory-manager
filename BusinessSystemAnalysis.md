@@ -1,9 +1,8 @@
-# Business System Analysis For Farm Inventory Manager
+# <ins>Business System Analysis For Farm Inventory Manager</ins>
 ---
----
-<br />
 
-## Table of Contents
+
+# Table of Contents
 1. [Problem Statement](#Problem-Statement)
 2. [Food Farm as a System](#Farm-System)
 3. [Vision/Elevator Pitch](#Elevator-Pitch)
@@ -23,7 +22,7 @@
 
 <a name="Problem-Statement"></a>
 
-## Problem Statement
+# Problem Statement
 **The Problem** is a lack of inventory management from field, to crate, to storage, to market thus increasing waste of produce and lack of produce being sent to market.
 
 **It affects** the company itself due to mismanagement of inventory, the managers, as it is more difficult to keep track of what is and is not needed, the employees, who may feel their work is inadequate due to waste, and the customers, who are not receiving the appropriate produce at markets.
@@ -38,7 +37,7 @@
 
 <a name="Farm-System"></a>
 
-## Thriving Food Farm as a System
+# Thriving Food Farm as a System
 **What is its purpose: i.e. what is it trying to achieve?**  <br />
 Providing good-quality, organic produce to the homes of local families while maintaining the health of the soil in a sustainable and regenerative way.
 
@@ -67,7 +66,7 @@ Produce, raw materials, customer data.
 
 <a name="Elevator-Pitch"></a>
 
-## Vision/Elevator Pitch
+# Vision/Elevator Pitch
 ### For Produce and Inventory (Phase 1)
 **For** Thriving Food Farm executive management <br />
 **Who** would like to keep records of produce planted, harvested, sold and discarded <br />
@@ -87,7 +86,7 @@ Produce, raw materials, customer data.
 
 <a name="Scope"></a>
 
-## Scope - In/Out List
+# Scope - In/Out List
 | Topic | In  | Out |
 | ----- | --- | --- |
 | Purchase history | :heavy_check_mark: |
@@ -111,7 +110,7 @@ Produce, raw materials, customer data.
 
 <a name="Business-Rules"></a>
 
-## Business Rules
+# Business Rules
 - The total purchase of all seedlings must not exceed the total planting space available.
 - The total harvest should not exceed the available storage.
 - The total harvested should be accounted for during allocation.
@@ -125,7 +124,7 @@ Produce, raw materials, customer data.
 
 <a name="RAIDS"></a>
 
-## RAIDS - Risk, Assumptions, Issues, Dependencies, System Constraints
+# RAIDS - Risk, Assumptions, Issues, Dependencies, System Constraints
 | Category | Description | Impacts | Owner | Priority |
 | -------- | ----------- | ------- | ----- | -------- |
 | **R**isk | Produce is mismanaged and not accounted for | Entire system's reliability | |High | | 
@@ -142,7 +141,7 @@ Produce, raw materials, customer data.
 
 <a name="Personas"></a>
 
-## Personas
+# Personas
 ### Name and Descriptor: *Farmer Frank, the small farm owner*
 | *WHO* | *HOW* | *WHAT* | *WHY* |
 | ----- | ----- | ------ | ----- |
@@ -159,7 +158,7 @@ Produce, raw materials, customer data.
 
 #<a name="Requirements"></a>
 
-## Requirements
+# Requirements
 ### Business Requirements
 - BR001 : Reduce overstock by 10%.
 - BR002 : Sales increase by 10%.
@@ -185,7 +184,7 @@ Produce, raw materials, customer data.
 
 <a name="Sample-User-Stories"></a>
 
-## Sample User Stories
+# Sample User Stories
 | As  | I need | So that |
 | --- | ------ | ------- |
 | Farm Manager | to be able to track previous orders | I know whether or not to update current order |
@@ -205,7 +204,7 @@ Produce, raw materials, customer data.
 
 <a name="Product-Context-Diagram"></a>
 
-## Product Context Diagram
+# Product Context Diagram
 ![Context Diagram of High-Level view of Farm Inventory Manager System.](/diagrams/FIM_Context_Diagram.png)
 
 ---
@@ -214,7 +213,7 @@ Produce, raw materials, customer data.
 
 <a name="Use-Case-Diagram"></a>
 
-## Use Case Diagram
+# Use Case Diagram
 ![High-Level Use Case Diagram of Farm Inventory Manager System.](/diagrams/FIM_Use_case_diagram.png)
 
 ---
@@ -223,5 +222,5 @@ Produce, raw materials, customer data.
 
 <a name="Sequence-Diagram"></a>
 
-## Sequence Diagram
+# Sequence Diagram
 ![High-Level Sequence Diagram of Farm Inventory Manager System.](/diagrams/FIM_Sequence_Diagram.png)
