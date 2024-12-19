@@ -171,3 +171,10 @@ Produce, raw materials, customer data.
 
 # Use Case Diagram
 ![High-Level Use Case Diagram of Farm Inventory Manager System.](/diagrams/FIM_Use_case_diagram.png)
+
+---
+---
+<br />
+
+# Sequence Diagram
+![High-Level Sequence Diagram of Farm Inventory Manager System.](/diagrams/FIM_Sequence_Diagram.png)
