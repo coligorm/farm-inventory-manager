@@ -4,7 +4,7 @@
 
 # Table of Contents
 1. [Problem Statement](#Problem-Statement)
-2. [Food Farm as a System](#Farm-System)
+2. [Vegetable Farm as a System](#Farm-System)
 3. [Vision/Elevator Pitch](#Elevator-Pitch)
 4. [Scope](#Scope)
 5. [Business Rules](#Business-Rules)
@@ -37,7 +37,7 @@
 
 <a name="Farm-System"></a>
 
-# Thriving Food Farm as a System
+# Vegetable Farm as a System
 **What is its purpose: i.e. what is it trying to achieve?**  <br />
 Providing good-quality, organic produce to the homes of local families while maintaining the health of the soil in a sustainable and regenerative way.
 
@@ -156,7 +156,7 @@ Produce, raw materials, customer data.
 ---
 <br />
 
-#<a name="Requirements"></a>
+<a name="Requirements"></a>
 
 # Requirements
 ### Business Requirements
@@ -214,7 +214,7 @@ Produce, raw materials, customer data.
 <a name="Use-Case-Diagram"></a>
 
 # Use Case Diagram
-![High-Level Use Case Diagram of Farm Inventory Manager System.](/diagrams/FIM_Use_case_diagram.png)
+![High-Level Use Case Diagram of Farm Inventory Manager System.](/diagrams/FIM_Use_Case_Diagram.png)
 
 ---
 ---
